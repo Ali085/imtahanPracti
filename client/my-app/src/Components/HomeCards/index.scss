@@ -1,0 +1,45 @@
+.dataAll {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+    .cardHead {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .headertxt{
+            font-size: 33px;
+        }
+    }
+
+    .CARDS {
+        min-height: 40vh;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+
+        .cardsData {
+            background-color: white;
+            border-radius: 10px;
+            min-height: 250px;
+            max-width: 330px;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            img {
+                width: 60px;
+            }
+
+
+        }
+
+    }
+}
